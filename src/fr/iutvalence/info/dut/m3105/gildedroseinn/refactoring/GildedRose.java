@@ -24,10 +24,10 @@ public class GildedRose
 		items.add(new Item("Backstage passes to a TAFKAL80ETC concert", 15, 20));
 		items.add(new Item("Conjured Mana Cake", 3, 6));
 
-		updateQuality();
+		updateItemsQualityAndSellIn();
 	}
-
-	public static void updateQuality()
+//update items Quality and Sellin 
+	public static void updateItemsQualityAndSellIn()
 	{
 		for (int i = 0; i < items.size(); i++)
 		{
@@ -103,5 +103,8 @@ public class GildedRose
 			}
 		}
 	}
+	public static void updateItemsQuality(){}
+	public static void updateItemsSellIn(){}
+	public static void updateItemsSellInPassed(){}
 
 }
